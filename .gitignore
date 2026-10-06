@@ -1,0 +1,51 @@
+# Gradle files
+.gradle/
+.kotlin/
+build/
+captures/
+**/local.properties
+
+# Android Studio / IntelliJ / ACS
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/gradle.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/httpRequests/
+
+# Keystore files
+*.jks
+*.keystore
+keystore.properties
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build directories
+app/build/
+*/build/
+
+# Proguard files
+proguard/
+
+# Android artifacts
+*.apk
+*.ap_
+*.dex
+*.class
+releases/
+
+# NDK
+ndkBuild/
+obj/
+jniLibs/

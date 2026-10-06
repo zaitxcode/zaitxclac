@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Calculator Body Shadow / Outer Border -->
+    <path
+        android:fillColor="#0D0E11"
+        android:pathData="M35,19h38c6.63,0 12,5.37 12,12v46c0,6.63 -5.37,12 -12,12h-38c-6.63,0 -12,-5.37 -12,-12v-46c0,-6.63 5.37,-12 12,-12z" />
+
+    <!-- Calculator Body -->
+    <path
+        android:fillColor="#282C34"
+        android:pathData="M35,20h38c5.52,0 10,4.48 10,10v46c0,5.52 -4.48,10 -10,10h-38c-5.52,0 -10,-4.48 -10,-10v-46c0,-5.52 4.48,-10 10,-10z" />
+
+    <!-- Screen Display -->
+    <path
+        android:fillColor="#3E4451"
+        android:pathData="M31,26h46c2.21,0 4,1.79 4,4v10c0,2.21 -1.79,4 -4,4h-46c-2.21,0 -4,-1.79 -4,-4v-10c0,-2.21 1.79,-4 4,-4z" />
+
+    <!-- Digits on Screen -->
+    <path
+        android:fillColor="#61AFEF"
+        android:pathData="M70,33h4v4h-4z M63,33h5v4h-5z M56,35h4v2h-4z" />
+
+    <!-- Row 1: Function Buttons (Action Grey) -->
+    <!-- AC Button -->
+    <path
+        android:fillColor="#5C6370"
+        android:pathData="M29,46h9c1.66,0 3,1.34 3,3v3c0,1.66 -1.34,3 -3,3h-9c-1.66,0 -3,-1.34 -3,-3v-3c0,-1.66 1.34,-3 3,-3z" />
+    <!-- +/- Button -->
+    <path
+        android:fillColor="#5C6370"
+        android:pathData="M43,46h9c1.66,0 3,1.34 3,3v3c0,1.66 -1.34,3 -3,3h-9c-1.66,0 -3,-1.34 -3,-3v-3c0,-1.66 1.34,-3 3,-3z" />
+    <!-- % Button -->
+    <path
+        android:fillColor="#5C6370"
+        android:pathData="M57,46h9c1.66,0 3,1.34 3,3v3c0,1.66 -1.34,3 -3,3h-9c-1.66,0 -3,-1.34 -3,-3v-3c0,-1.66 1.34,-3 3,-3z" />
+    <!-- ÷ Button (Operator Accent) -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M71,46h9c1.66,0 3,1.34 3,3v3c0,1.66 -1.34,3 -3,3h-9c-1.66,0 -3,-1.34 -3,-3v-3c0,-1.66 1.34,-3 3,-3z" />
+
+    <!-- Row 2: 7, 8, 9, × -->
+    <!-- 7 -->
+    <path
+        android:fillColor="#4B5263"
+        android:pathData="M29,57h9c1.66,0 3,1.34 3,3v3c0,1.66 -1.34,3 -3,3h-9c-1.66,0 -3,-1.34 -3,-3v-3c0,-1.66 1.34,-3 3,-3z" />
+    <!-- 8 -->
+    <path
+        android:fillColor="#4B5263"
+        android:pathData="M43,57h9c1.66,0 3,1.34 3,3v3c0,1.66 -1.34,3 -3,3h-9c-1.66,0 -3,-1.34 -3,-3v-3c0,-1.66 1.34,-3 3,-3z" />
+    <!-- 9 -->
+    <path
+        android:fillColor="#4B5263"
+        android:pathData="M57,57h9c1.66,0 3,1.34 3,3v3c0,1.66 -1.34,3 -3,3h-9c-1.66,0 -3,-1.34 -3,-3v-3c0,-1.66 1.34,-3 3,-3z" />
+    <!-- × (Operator Accent) -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M71,57h9c1.66,0 3,1.34 3,3v3c0,1.66 -1.34,3 -3,3h-9c-1.66,0 -3,-1.34 -3,-3v-3c0,-1.66 1.34,-3 3,-3z" />
+
+    <!-- Row 3: 4, 5, 6, − -->
+    <!-- 4 -->
+    <path
+        android:fillColor="#4B5263"
+        android:pathData="M29,68h9c1.66,0 3,1.34 3,3v3c0,1.66 -1.34,3 -3,3h-9c-1.66,0 -3,-1.34 -3,-3v-3c0,-1.66 1.34,-3 3,-3z" />
+    <!-- 5 -->
+    <path
+        android:fillColor="#4B5263"
+        android:pathData="M43,68h9c1.66,0 3,1.34 3,3v3c0,1.66 -1.34,3 -3,3h-9c-1.66,0 -3,-1.34 -3,-3v-3c0,-1.66 1.34,-3 3,-3z" />
+    <!-- 6 -->
+    <path
+        android:fillColor="#4B5263"
+        android:pathData="M57,68h9c1.66,0 3,1.34 3,3v3c0,1.66 -1.34,3 -3,3h-9c-1.66,0 -3,-1.34 -3,-3v-3c0,-1.66 1.34,-3 3,-3z" />
+    <!-- − (Operator Accent) -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M71,68h9c1.66,0 3,1.34 3,3v3c0,1.66 -1.34,3 -3,3h-9c-1.66,0 -3,-1.34 -3,-3v-3c0,-1.66 1.34,-3 3,-3z" />
+
+    <!-- Row 4: 1, 2, 3, + -->
+    <!-- 1 -->
+    <path
+        android:fillColor="#4B5263"
+        android:pathData="M29,79h9c1.66,0 3,1.34 3,3v3c0,1.66 -1.34,3 -3,3h-9c-1.66,0 -3,-1.34 -3,-3v-3c0,-1.66 1.34,-3 3,-3z" />
+    <!-- 2 -->
+    <path
+        android:fillColor="#4B5263"
+        android:pathData="M43,79h9c1.66,0 3,1.34 3,3v3c0,1.66 -1.34,3 -3,3h-9c-1.66,0 -3,-1.34 -3,-3v-3c0,-1.66 1.34,-3 3,-3z" />
+    <!-- 3 -->
+    <path
+        android:fillColor="#4B5263"
+        android:pathData="M57,79h9c1.66,0 3,1.34 3,3v3c0,1.66 -1.34,3 -3,3h-9c-1.66,0 -3,-1.34 -3,-3v-3c0,-1.66 1.34,-3 3,-3z" />
+    <!-- = (Green Accent) -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M71,79h9c1.66,0 3,1.34 3,3v3c0,1.66 -1.34,3 -3,3h-9c-1.66,0 -3,-1.34 -3,-3v-3c0,-1.66 1.34,-3 3,-3z" />
+
+    <!-- Mathematical symbol highlights -->
+    <!-- Division line & dots -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M73.5,50.5h4v1h-4z M75,48.5h1v1h-1z M75,52.5h1v1h-1z" />
+    <!-- Multiply X -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M74,59.5l1,-1l1.5,1.5l1.5,-1.5l1,1l-1.5,1.5l1.5,1.5l-1,1l-1.5,-1.5l-1.5,1.5l-1,-1l1.5,-1.5z" />
+    <!-- Minus - -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M73.5,72.5h4v1.5h-4z" />
+    <!-- Equal = -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M73.5,82.5h4v1h-4z M73.5,84.5h4v1h-4z" />
+
+</vector>
